@@ -1,0 +1,43 @@
+.download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 104px;
+    margin-bottom: 100px;
+    gap: 219px;
+    &__button {
+      align-items: center;
+      text-align: left;
+      margin-top: 40px;
+    }
+    &-img__button {
+      position: absolute;
+      margin-left: 125px;
+      margin-top: -20px;
+    }
+
+
+    &__text {
+        text-align: left;
+
+        h2 {
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 58px;
+            margin-bottom: 30px;
+            color: #201f1f;
+          }
+      
+          span {
+            color: #6c5fbc;
+          }
+          
+
+          & li {
+            font-size: 15px;
+            color: #676767;
+            line-height: 150%;
+            padding: 5px;
+          }
+    }
+}

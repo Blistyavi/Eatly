@@ -1,0 +1,124 @@
+.menu {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+
+  &__trust {
+    margin-top: 33px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    gap: 10px;
+    
+  }
+  &__vec {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -8px;
+  }
+  &__trust-text {
+    color: #ffffff;
+    position: relative;
+      font-size: 20px;
+      color: #090909;
+      font-weight: bold;
+      line-height: 220%;
+  }
+  &__trust-text_p {
+    position: relative;
+    font-size: 18px;
+      color: #201f1f80;
+      line-height: 220%;
+      margin-top: 3px;
+  }
+  &__stars {
+    display: flex;
+    gap: 4px;
+    
+
+  }
+  &-assets {
+    text-align: left;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__over {
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+    & h2 {
+      position: relative;
+      font-size: 10px;
+      color: #201f1f80;
+      line-height: 220%;
+      padding-left: 70px;
+      margin: 0 auto;
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 54px;
+        height: 1px;
+        top: 10px;
+        background: #201f1f80;
+        left: 0;
+        text-align: center;
+      }
+    }
+  }
+
+  &__text {
+    h1 {
+      font-size: 75px;
+      font-weight: 600;
+      line-height: 70px;
+      margin-bottom: 30px;
+      color: #201f1f;
+    }
+
+    span {
+      color: #6c5fbc;
+    }
+    &-p {
+      font-size: 15px;
+      color: rgba(32, 31, 31, 0.5);
+      line-height: 220%;
+    }
+  }
+  &__but {
+    margin-top: 35px;
+
+    #but-start {
+      font-size: 15px;
+      background-color: #6c5fbc;
+      padding: 15px 27px;
+      color: #f9f9f9;
+      display: inline-block;
+      border-radius: 15px/13px;
+      transition: all 3s easy;
+      &:hover {
+        background: #7769d0;
+      }
+    }
+
+    #but-pro {
+      font-size: 15px;
+      background-color: #f9f9f9;
+      border: 1px solid;
+      padding: 15px 20px;
+      color: #6c5fbc;
+      display: inline-block;
+      border-radius: 15px/13px;
+      margin-left: 15px;
+
+      transition: all 4s easy;
+      &:hover {
+        transform: scale(0.98);
+      }
+    }
+  }
+  
+  
+}
