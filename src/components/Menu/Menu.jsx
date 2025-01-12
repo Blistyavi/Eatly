@@ -1,5 +1,5 @@
 import "./Menu.scss";
-import hero from "../../assets/Hero.png";
+import hero from "../..//assets/Hero.png";
 import star from "../../assets/star.svg";
 import vector from "../../assets/Vector.svg";
 import Button from "../../../modules/Button";

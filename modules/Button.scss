@@ -1,7 +1,14 @@
 .button {
   font-size: 18px;
   font-weight: 500;
-      background-color: #6c5fbc;
+      
+}
+
+.button.primary {
+  border-radius: 15px/11px;
+  color: #f9f9f9;
+  padding: 14px 27px;;
+  background-color: #6c5fbc;
       padding: 15px 25px;
       
       display: inline-block;
@@ -11,12 +18,6 @@
       &:hover {
         background: #7769d0;
       }
-}
-
-.button.primary {
-  border-radius: 15px/11px;
-  color: #f9f9f9;
-  padding: 14px 27px;;
 }
 
 .button.secondary {
@@ -41,8 +42,8 @@
 }
 
 .button.danger {
-  background-color: #dc3545;
-  color: white;
+  
+  color: #ACADB9;
 }
 
 .button:disabled {

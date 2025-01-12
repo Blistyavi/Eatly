@@ -1,0 +1,66 @@
+.rating {
+  display: flex;
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 200px;
+  box-sizing: border-box;
+  background-image: url(../../assets/BG.png);
+  background-repeat: no-repeat;
+  margin-top: 130px;
+  &-assets {
+    display: flex;
+    align-items: center;
+    max-width: 1246px;
+    margin: 0 auto;
+    gap: 66px;
+  }
+  &__stick {
+    width: 2px;
+    height: 123px;
+  
+    background-color: #c5c5c52f;
+  }
+}
+
+
+
+
+
+.rating-assets div {
+  text-align: center;
+  position: relative;
+}
+
+.rating-assets h3 {
+  font-size: 54px; /* Размер чисел */
+  margin: 0;
+  color: #ffffff;
+}
+
+.rating-assets p {
+  font-size: 15px;
+  margin: 10px 0 0 0;
+  line-height: 1.5;
+  color: #cbd5e1; /* Цвет текста */
+}
+
+@media (max-width: 768px) {
+  .rating-content {
+    flex-direction: column; /* Располагаем элементы друг под другом */
+    text-align: center;
+  }
+
+  .rating img {
+    width: 100%; /* Элементы занимают всю ширину */
+  }
+
+  .rating h3 {
+    font-size: 2rem; /* Уменьшаем размер заголовка */
+  }
+
+  .rating p {
+    font-size: 1rem; /* Уменьшаем размер текста */
+  }
+}
